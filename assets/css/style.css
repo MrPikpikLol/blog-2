@@ -1,0 +1,257 @@
+/* css general */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Ubuntu', sans-serif;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+p {
+  font-size: 14px;
+}
+/* generic css */
+.section-title {
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+.section-title h2 {
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.section-title h2:after {
+  content:"";
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  width: 60px;
+  height: 1px;
+  background-color: #dea31c;
+  margin-left: -30px;
+}
+.section-title p {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 300;
+  text-align: center;
+  margin: 45px;
+}
+/* Navigation */
+.navbar-default {
+  background-color: transparent;
+  border-color: #444444;
+  z-index: 110;
+  transition: all 1s;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #d0c155;
+  font-family: 'Ubuntu', sans-serif;
+  transition: all 1s;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color: #dea31c;
+}
+.navbar-default .navbar-nav > li > a:focus{
+    color: #dea31c;
+}
+.navbar-brand {
+  padding: 9px 15px;
+}
+.navbar-brand img{
+  transition: all 1s;
+}
+.navbar-default .navbar-nav >.active>a,
+.navbar-default .navbar-nav >.active>a:hover,
+.navbar-default .navbar-nav >.active>a:focus {
+  background-color: transparent;
+  color: #dea31c;
+}
+
+/* header */
+.header {
+  background-image: url("../../assets/img/back4.jpg");
+
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.header-overlay{
+  background-color: rgb(31, 31, 31, 0.75);
+}
+.logo {
+  padding-bottom: 50px;
+}
+.header-text h1 {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 45px;
+  padding-top: 30px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #dea31c;
+}
+.header-text p{
+  color: #fff;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 300;
+}
+.header-btns {
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+
+.header-iphone img {
+  width: 100%;
+}
+
+/* contact us section */
+.contact-us-form .form-control {
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 21px;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #dea31c;
+    background-color: transparent;
+    border: 1px solid #aeaeae;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    opacity: 0.8;
+    outline: 0px !important;
+    transition: all 1s;
+}
+
+#message {
+    height: 117px;
+    resize: none;
+}
+
+.submit-btn,
+.submit-btn:active,
+.submit-btn:focus,
+.submit-btn:visited {
+    background-color: transparent;
+    border: 1px solid #dea31c;
+    border-radius: 4px;
+    width: 100%;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #dea31c;
+    outline: 0px !important;
+    transition: all 1s;
+}
+
+.submit-btn:hover {
+    background: #dea31c;
+    color: #fff;
+    border-color: #dea31c;
+
+}
+
+.social-icons {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.social-icons ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.social-icons ul li {
+    list-style: none;
+    display: inline;
+    padding-left: 10px;
+}
+
+.social-icons ul li a {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #9d9d9d;
+    border-radius: 3px;
+    width: 45px;
+    height: 45px;
+    line-height: 49px;
+    color: #dea31c;
+}
+
+.social-icons ul li a:hover {
+    background-color: #dea31c;
+    border: 1px solid #dea31c;
+    color: #fff;
+    transition: all 1s;
+}
+
+.fa-twitter, .fa-github {
+    font-size: 25px;
+}
+/* footer */
+.footer {
+    background-color: #1a1a1a;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    border-bottom: 3px solid #dea31c;
+}
+
+#copyright {
+    width: 50%;
+}
+
+#copyright p {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+#copyright p a {
+    text-decoration: none;
+    color: #dea31c;
+}
+
+.scroll-top {
+    text-align: right;
+}
+
+.scroll-top a {
+    background-color: #dea31c;
+    padding: 25px;
+}
+
+.fa-arrow-up {
+    color: #fff;
+    font-size: 25px;
+}
+
+/* photos */
+.screen {
+ background-image: linear-gradient(to bottom, #282b30, #212125, #1a181b, #100f10, #000000);
+}
+
+.contact-us {
+    background-color: #141313;
+}
+.post-list-heading{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+h3{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+.home {
+    background-color: #1d1d1d;
+}
