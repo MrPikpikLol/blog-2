@@ -155,22 +155,3 @@ $(document).ready(function(){
   });
 });
 
-// add counter
-
-$(document).ready(function(){
-
-    $('.counter-num').counterUp({
-
-        delay: 10,
-        time: 2000
-    });
-});
-
-//add animation
-
-$(document).ready(function(){
-
-    'use strict';
-    new WOW().init();
-
-});
