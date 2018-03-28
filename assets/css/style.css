@@ -7,6 +7,7 @@ body {
   font-family: 'Ubuntu', sans-serif;
   overflow-y: scroll;
   overflow-x: hidden;
+  background-color: #1d1d1d;
 }
 p {
   font-size: 14px;
@@ -242,16 +243,42 @@ p {
 .contact-us {
     background-color: #141313;
 }
-.post-list-heading{
+.post-list-heading {
     color: #fff;
     text-align: center;
     margin: 0;
 }
-h3{
+h3 {
     color: #fff;
     text-align: center;
     margin: 0;
 }
 .home {
     background-color: #1d1d1d;
+}
+.post-list {
+    text-align: center;
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+/* Post */
+.post-title {
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.post-img {
+    display: inline-block;
+    list-style: none;
+}
+.image {
+    padding: 20px;
+    width: 50%;
+}
+.playbtn {
+    margin-bottom: 100px;
 }
